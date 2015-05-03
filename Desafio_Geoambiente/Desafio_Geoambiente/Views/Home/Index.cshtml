@@ -1,0 +1,86 @@
+﻿@{
+    ViewBag.Title = "Desafio Geoambiente";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+                <h2>@ViewBag.Message</h2>
+            </hgroup>
+        </div>
+    </section>
+}
+<h3>Shots:</h3>
+<ul class="round">
+    <li>        
+        <div>
+            <a href="@ViewBag.Url0" class="branco" target="_blank">
+                <img src="@ViewBag.Image0" alt="@ViewBag.Title0" title="@ViewBag.Title0" />
+            </a>
+        </div>
+        
+        <div class="quadro-title">
+            <a href="@ViewBag.Url0" target="_blank">
+                <label title="Title">@ViewBag.Title0</label>
+                <label title="Views">Views: @ViewBag.Views0</label>
+            </a>
+        </div>
+
+        <div class="quadro-detalhes">
+            <a href="@ViewBag.Url0" target="_blank">
+                <img src="@ViewBag.Avatar0" class="avatar" alt="@ViewBag.Name0" title="@ViewBag.Name0" />
+                <label title="Title" class="titulo">@ViewBag.Name0</label>
+                <label title="Views" class="views">@ViewBag.Desc0</label>
+            </a>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d90325.44295107713!2d-93.2614785!3d44.970696999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b333909377bbbd%3A0x939fc9842f7aee07!2zTWluZcOhcG9saXMsIE1OLCBVU0E!5e0!3m2!1spt-BR!2sbr!4v1430687799584" width="225" height="225" frameborder="0" style="border:0"></iframe>
+        </div>
+    </li>
+
+    <li>        
+        <div>
+            <a href="@ViewBag.Url1" class="branco" target="_blank">
+            <img src="@ViewBag.Image1" alt="@ViewBag.Title1" title="@ViewBag.Title1" />
+            </a>
+        </div>
+        
+        <div class="quadro-title">
+            <a href="@ViewBag.Url1" target="_blank">
+                <label title="Title">@ViewBag.Title1</label>
+                <label title="Views">Views: @ViewBag.Views1</label>
+            </a>
+        </div>
+
+        <div class="quadro-detalhes">
+            <a href="@ViewBag.Url1" target="_blank">
+                <img src="@ViewBag.Avatar1" class="avatar" alt="@ViewBag.Name1" title="@ViewBag.Name1" />
+                <label title="Title" class="titulo">@ViewBag.Name1</label>
+                <label title="Views" class="views">@ViewBag.Desc1</label>
+            </a>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16326126.934178308!2d118.0148634!3d-2.5489259999999967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2c4c07d7496404b7%3A0xe37b4de71badf485!2sRepublic+of+Indonesia!5e0!3m2!1spt-BR!2sbr!4v1430688388330" width="225" height="225" frameborder="0" style="border:0"></iframe>
+        </div>
+    </li>
+
+    <li>        
+        <div>
+            <a href="@ViewBag.Url2" class="branco" target="_blank">
+                <img src="@ViewBag.Image2" alt="@ViewBag.Title2" title="@ViewBag.Title2" />
+            </a>
+        </div>
+        
+        <div class="quadro-title">
+            <a href="@ViewBag.Url2" target="_blank">
+                <label title="Title">@ViewBag.Title2</label>
+                <label title="Views">Views: @ViewBag.Views2</label>
+            </a>
+        </div>
+
+        <div class="quadro-detalhes">
+            <a href="@ViewBag.Url2" target="_blank">
+                <img src="@ViewBag.Avatar2" class="avatar" alt="@ViewBag.Name2" title="@ViewBag.Name2" />
+                <label title="Title" class="titulo">@ViewBag.Name2</label>
+                <label title="Views" class="views">@ViewBag.Desc2</label>
+            </a>
+        </div>
+    </li>
+</ul>
